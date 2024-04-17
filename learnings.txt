@@ -1,0 +1,30 @@
+# diffrence between 100vh and 100% in css
+--> 100% means the element get the size of 100% of its parent element.
+  similarly x% size == element get the size of x% of its parent element.
+--> 100vh meas the element gets full viweport size. this property is inheritable to child element
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# line height :
+--> The line-height CSS property sets the height of a line box. It's commonly used to set the distance between lines of text.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# box-sizing:border-box:
+--> In CSS, when you set the height of an element, it does not include padding, border, or margin by default. So, if your block has padding or border applied to it, the total height will be the sum of the height you specified plus the padding and border.
+to remove this property--> apply 'box-sizing:border-box'
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# title="___" (attribute):
+--> when you want to show some message when hover on element we use title.
+[attribute:a piece of markup language that can be used to change the appearance or behavior of an HTML element.]
+
+<abbr></abbr> --> symantic tag (abbreviation)
+--> that can be used for any abbreviation, including acronyms and initialisms.
+e.g. (search to mdn)
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
