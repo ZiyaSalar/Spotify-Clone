@@ -17,7 +17,12 @@ body{
 
 .big-box{
   background-color: #121212;
-  border-radius:1rem;
+  border-radius:0.5rem;
+}
+
+p{
+  margin:0;
+  padding:0;
 }
 
 a{
@@ -38,6 +43,25 @@ button{
 }
 .hov-op:hover{
   opacity:1;
+  cursor:pointer;
+}
+
+.scale{
+  transform: scale(1);
+}
+.scale:hover{
+  transform: scale(1.05);
+}
+
+.circle-hov{
+  height: 2rem;
+  width: 2rem;
+  padding: 0.5rem;
+  background-color: transparent;
+  border-radius: 50%;
+}
+.circle-hov:hover{
+  background-color: #161616;
 }
 
 /* .span-btn{
@@ -88,7 +112,7 @@ hr{
 }
 
 .sidebar-box2{
-  height: 400px;
+  height: 425px;
   margin-top:8px;
 }
 
@@ -124,17 +148,10 @@ hr{
 }
 
 .lib-btn2{
-  padding: 0.5rem;
-  height:2rem;
-  width:2rem;
   align-self: center;
   background-color: transparent;
-  border-radius: 50%;
   cursor:pointer;
   order:2;
-}
-.lib-btn2:hover{
-  background-color: #161616;
 }
 
 .lib-head2{
@@ -166,9 +183,60 @@ hr{
   cursor: pointer;
 }
 
+
+
 .lib-body{
-  height:500px;
-  overflow:auto;
+  height: 300px;
+  overflow-y:scroll;
+  padding: 0rem 0.5rem 0.5rem 0.5rem;
+}
+
+
+.lib-body-box0{
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+
+.lib-body-box0 button{
+  padding: 0.5rem;
+  font-size: 14px;
+}
+
+.lib-body-card{
+  box-sizing: border-box;
+  height:4rem;
+  padding:0.5rem;
+  border-radius:0.5rem;
+  display: flex;
+  align-items: center;
+}
+.lib-body-card:hover{
+  background-color: #1A1A1A;
+  cursor: pointer;
+}
+
+.lib-body-card-img img{
+  height: 3rem;
+  width: 3rem;
+  border-radius: 0.3rem;
+}
+
+.lib-body-card-name{
+  flex:1;
+  height:3rem;
+  margin-left:0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.lib-body-card-name-title{
+  font-weight: 600;
+}
+
+.lib-body-card-name-dis{
+  color:#A7A7A7;
+  font-size: small;
 }
 
 
