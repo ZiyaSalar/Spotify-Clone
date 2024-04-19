@@ -241,13 +241,22 @@ hr{
 
 /* content-area-css */
 .content-area{
-  flex:1
+  flex:1;
+  overflow-y:auto;
+}
+
+.sticky-nav{
+  position: sticky;
+  top:0;
+  background-color: #121212;
 }
 
 .main-header{
   padding:1rem;
   display: flex;
   justify-content: space-between;
+  /* position:sticky;
+  top:0; */
 }
 
 .header-bf-btn{
@@ -315,6 +324,35 @@ hr{
 }
 #main-btn3{
   font-size: 1rem;
+}
+
+
+.main-neak{
+  box-sizing: border-box;
+  height: 3.5rem;
+  padding:1rem;
+  display: flex;
+  align-items: center;
+  /* position: sticky;
+  top:0; */
+}
+.main-neak-btn{
+  display: flex;
+  width:13.5rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#all{
+  background-color: #fff;
+  color:#000;
+}
+
+.main-playlist{
+  border: 1px solid #fff;
+}
+.main-playlist-card{
+  border: 1px dashed red;
 }
 
 /* player-css */
