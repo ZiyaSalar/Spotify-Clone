@@ -83,6 +83,11 @@ hr{
   padding:0;
 }
 
+@media (max-width:1024px) {
+  .hide{
+    display: none;
+  }
+}
 
 /* sidebar-css */
 .sidebar{
@@ -349,9 +354,15 @@ hr{
 }
 
 .main-playlist{
-  border: 1px solid #fff;
+  padding:1rem;
+  box-sizing: border-box;
+  border: 1px solid #fff; 
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap:0.5rem;
 }
 .main-playlist-card{
+  height: 3rem;
   border: 1px dashed red;
 }
 
