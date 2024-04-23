@@ -38,6 +38,10 @@ button{
   font-family: "Montserrat", sans-serif;
 }
 
+h2{
+  margin: 0;
+}
+
 .hov-op{
   opacity:0.6;
 }
@@ -363,7 +367,70 @@ hr{
 }
 .main-playlist-card{
   height: 3rem;
+  
   border: 1px dashed red;
+}
+
+/* -------------- */
+.card-container{
+  border:1px dashed #fff;
+  padding: 1rem;
+}
+
+.container-head{
+  border:1px dashed red;
+  margin-bottom: 1rem;
+  /*  */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container-head h2:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.container-head span{
+  font-size: 14px;
+  font-weight: 500;
+  color:#b3b3b3;
+}
+.container-head span:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.container-body{
+  border:1px dashed red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.container-card{
+  width:10rem;
+  border:1px dashed aquamarine;
+  border-radius: 0.5rem;
+  margin-right:0.4rem;
+  padding:0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-card-img{
+  height:10rem;
+  width: 10rem;
+  /* background-image: url("./asset/daily-mix-1.jpeg"); */
+  background-size: contain;
+  border-radius: 0.5rem;
+}
+
+.container-card-head{
+  font-weight: 600;
+}
+.container-card-body{
+  font-size:12px;
 }
 
 /* player-css */
