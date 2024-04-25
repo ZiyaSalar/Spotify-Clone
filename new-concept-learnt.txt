@@ -1,0 +1,23 @@
+#position {
+  1) static :
+  --> normal flow;
+  --> no effect of top, right, bottom, left & z-index;
+
+  2) relative:
+  --> position placed according to normal flow;
+  --> ofset using top, right, bottom, left;
+  
+  3) absolute :
+  --> element is removed from the layout;
+  --> element is position relative to closest "positioned" ancestor;
+  --> final position is determined by top, right, bottom left;
+
+  4) fixed : 
+  --> element is removed from normal document flow and no space is created in the page layout;
+  --> positioned w.r.t. initial contiaining block (viweport);
+  --> final position is determined by top, right, bottom left;
+
+  5) sticky :
+  --> the element is positioned according to normal flow;
+  --> offset relative to nearest scrolling ancestor;
+}
