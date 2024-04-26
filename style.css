@@ -586,4 +586,71 @@ hr{
   bottom:0;
   width:100%;
   height: 72px;
+  border: 1px solid #fff;
+  display: grid;
+  grid-template-columns: 30% 40% 30%;
+}
+
+.recent-song{
+  border:1px dashed red;
+  padding:0.5rem;
+}
+
+.recent-song-card{
+  display: flex;
+  align-items: center;
+}
+
+.recent-song-img{
+  position: relative;
+}
+.recent-song-card img{
+  height:3.5rem;
+  width: 3.5rem;
+  border-radius: 0.5rem;
+  margin-right:0.75rem;
+}
+
+.recent-song-name div{
+  font-size:14px;
+  font-weight: 600;
+  margin-right:0.75rem;
+}
+.recent-song-name div a{
+  text-decoration: none;
+}
+.recent-song-name div a:hover{
+  text-decoration: underline;
+}
+.recent-song-name span a{
+  font-size:12px;
+  color:#A7A7A7
+}
+.recent-song-name span a{
+  text-decoration: none;
+}
+.recent-song-name span a:hover{
+  text-decoration: underline;
+}
+.recent-song-card i{
+  color:#1FDF64
+}
+.down-arrow{
+  height: 1rem;
+  width:1rem;
+  color:#fff;
+  opacity:0.6;
+  position: absolute;
+  margin:0.5rem;
+  top:0px;
+
+}
+
+
+.song-player{
+  border:1px dashed red;
+}
+
+.functional-btn{
+  border:1px dashed red;
 }
